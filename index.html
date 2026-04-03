@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model y Flexbox</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div id="root">
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid justify-content-end">
+
+                    <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-links">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#presentacion">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#educacion">Educacion</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobremi">Sobre mí</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="presentacion">
+
+
+                
+                <div class="presentacion-contenido">
+                    
+                    <figure>
+                        <img src="assets/img/animadogreen.png" alt="Avatar de Lautaro">
+                    </figure>
+
+                    <div class="presentacion-texto">
+                        <h1>Hola, soy Lautaro</h1>
+                        <h2>Desarrollador Web</h2>
+                        <p>
+                            Apasionado por la tecnología, el diseño y la creación de experiencias digitales.
+                        </p>
+                    </div>
+
+                    
+                <div class="presentacion-acciones">
+
+                    <span class="badge-disponible">
+                        Disponible para trabajar
+                    </span>
+
+                    <div class="presentacion-links">
+                        <a href="https://linkedin.com/in/lautaro-barrionuevo" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.33 6 7.66V24h-5V15.3c0-2.08-.04-4.76-2.9-4.76-2.9 0-3.34 2.27-3.34 4.61V24h-5V8z"/>
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a href="https://github.com/LautaroBarrionuevo" target="_blank" rel="noopener noreferrer">
+                            
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 .5C5.65.5.5 5.8.5 12.3c0 5.2 3.4 9.6 8.2 11.1.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.4 2 1.4 1.2 2.1 3.2 1.5 4 .9.1-.9.5-1.5.9-1.9-2.6-.3-5.4-1.3-5.4-5.7 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0C17 4.9 18 5.2 18 5.2c.7 1.7.2 3 .1 3.3.8.8 1.3 1.9 1.3 3.2 0 4.4-2.8 5.4-5.4 5.7.5.4 1 1.2 1 2.4v3.6c0 .3.2.7.8.6 4.8-1.5 8.2-5.9 8.2-11.1C23.5 5.8 18.35.5 12 .5z"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+
+                        <a href="mailto:lautaro.barrionuevo@hotmail.com">
+                            
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4zm2 .5 8 5 8-5H4zm16 15.5V7.2l-8 5-8-5V20h16z"/>
+                            </svg>
+
+                            <span></span>Email</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                </div>
+
+            </section>  
+            
+
+            <section id="proyectos">
+
+            <h2 class="seccion-titulo">Proyectos</h2>
+
+            <div class="proyectos-lista">
+
+
+                <article class="proyecto-card">
+
+                <div class="proyecto-imagen">
+                    <img src="assets/img/project1.png" alt="Imagen del proyecto 1">
+                </div>
+
+                <div class="proyecto-info">
+                    <h3>Proyecto 1</h3>
+                    <p>
+                    Proyecto de carrito de compras con funcionalidades básicas como agregar,
+                    eliminar productos y calcular totales.
+                    </p>
+                    <div class="proyecto-links">
+                    #Código</a>
+                    #Demo</a>
+                    </div>
+                </div>
+                
+                </article>
+
+                <article class="proyecto-card">
+
+                <div class="proyecto-imagen">
+                    <img src="assets/img/project2.png" alt="Imagen del proyecto 2">
+                </div>
+
+                <div class="proyecto-info">
+                    <h3>Proyecto 2</h3>
+                    <p>
+                    Proyecto de otra cosa diferente, con funcionalidades básicas como agregar,
+                    eliminar productos y calcular totales.
+                    </p>
+                    <div class="proyecto-links">
+                    #Código</a>
+                    #Demo</a>
+                    </div>
+                </div>
+
+                
+                </article>
+
+                <article class="proyecto-card">
+
+                <div class="proyecto-imagen">
+                    <img src="assets/img/project3.png" alt="Imagen del proyecto 3">
+                </div>
+
+                <div class="proyecto-info">
+                    <h3>Proyecto 3</h3>
+                    <p>
+                    Proyecto de otra cosa distinta a las otras dos, con fucnionalidades complejas, como rankear con teemo.
+                    </p>
+                    <div class="proyecto-links">
+                    #Código</a>
+                    #Demo</a>
+                    </div>
+                </div>
+
+                
+                </article>
+
+            </div>
+
+            </section>
+
+
+            <section id="educacion">
+
+                <h2 class="seccion-titulo">Educación</h2>
+
+                <div class="educacion-timeline">
+
+                    <article class="educacion-item">
+                    <span class="educacion-punto"></span>
+
+                        <div class="educacion-grid">
+                            <div class="educacion-contenido">
+                                <h3>Analista programador</h3>
+                                <p class="educacion-lugar">Universidad Abierta Interamericana</p>
+                                <span class="educacion-fecha">2025 - Actualidad</span>
+                            </div>
+
+
+                            <div class="educacion-descripcion">
+                                <p> 
+                                    Conocimientos en programación, bases de datos, análisis de sistemas y resolución de problemas tecnológicos.
+                                </p>
+                            </div>
+
+
+                        </div>    
+                    </article>
+                    
+                    <article class="educacion-item">
+                    <span class="educacion-punto"></span>
+                        
+                        <div class="educacion-grid">
+                            <div class="educacion-contenido">
+                                <h3>Desarrollador Full Stack</h3>
+                                <p class="educacion-lugar">Coderhouse</p>
+                                <span class="educacion-fecha">2025 - Actualidad</span>
+                            </div>
+
+
+                            <div class="educacion-descripcion">
+                                <p>
+                                    Programa intensivo en frontend y backend. Creación de aplicaciones completas con HTML, CSS, JavaScript, React y Node.js.
+                                </p>
+                            </div> 
+                        </div>
+                    </article>
+                    
+                    <article class="educacion-item">
+                    <span class="educacion-punto"></span>
+                        
+                        <div class="educacion-grid">
+                            <div class="educacion-contenido">
+                                <h3>Desarrollo de Aplicaciones</h3>
+                                <p class="educacion-lugar">VML Argentina</p>
+                                <span class="educacion-fecha">2025 - Actualidad</span>
+                            </div>
+
+
+                            <div class="educacion-descripcion">
+                                <p>
+                                    Participación activa en un proyecto de desarrollo de aplicaciones internas orientadas a distintos sectores del trabajo. Contribuyo en la identificación de necesidades y en el diseño de soluciones tecnológicas que optimizan procesos y mejoran la eficiencia.
+                                </p>
+                            </div> 
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section id="sobremi">
+                <h2 class="seccion-titulo">Sobre mí</h2>
+
+                <div class="sobremi-contenido">
+
+                    <div class="sobremi-texto">
+                        <p>
+                            Mi nombre es Lautaro y soy desarrollador web con interés en la creación de
+                            experiencias digitales claras y funcionales. Me motiva combinar diseño y
+                            tecnología para construir productos simples, accesibles y bien estructurados.
+                        </p>
+
+                        <p>
+                            Actualmente me encuentro formándome de manera constante en desarrollo web,
+                            fortaleciendo mis conocimientos en HTML, CSS y JavaScript, con foco en buenas
+                            prácticas, diseño responsive y código mantenible.
+                        </p>
+                    </div>
+
+                    <div class="sobremi-imagen">
+                        <img src="assets/img/yoyo.png" alt="Foto personal">
+                    </div>
+
+                </div>
+            </section>
+            <section id="contacto"></section>
+        </main>
+        
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    
+    <script>
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+
+    document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+        // Solo cerrar si el menú está abierto (mobile)
+        if (navbarCollapse.classList.contains('show')) {
+            const collapse = bootstrap.Collapse.getInstance(navbarCollapse);
+            collapse.hide();
+        }
+        });
+    });
+    </script>
+    
+</body>
+</html>
