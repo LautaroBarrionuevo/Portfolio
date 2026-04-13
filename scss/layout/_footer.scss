@@ -1,9 +1,8 @@
 .footer {
-    border-top: 1px solid #e5e7eb;
-    background-color: #ffffff;
-}
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
 
-.footer-contenido {
+  &-contenido {
     max-width: 900px;
     margin: 0 auto;
     padding: 1.5rem 1rem;
@@ -12,26 +11,27 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-}
+  }
 
-.footer-copy {
+  &-copy {
     font-size: 0.9rem;
     color: #6b7280;
     margin: 0;
-}
+  }
 
-.footer-links {
+  &-links {
     display: flex;
     gap: 1.5rem;
-}
 
-.footer-links a {
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #4b5563;
-}
+    a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #4b5563;
 
-.footer-links a:hover {
-    color: #2563eb;
+      &:hover {
+        color: #2563eb;
+      }
+    }
+  }
 }

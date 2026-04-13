@@ -1,109 +1,80 @@
 #presentacion {
-    min-height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4rem;
-    
-    background-color: #f5f6fa;
-}
+  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  background-color: #f5f6fa;
 
-
-
-.presentacion-contenido {
-    max-width: 900px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0rem;
-    padding: 2.5rem;
-    text-align: center;
-    margin-top: -60px;
-}
-
-
-
-#presentacion figure {
+  figure {
     margin: 0;
-}
+  }
 
-#presentacion img {
+  img {
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
+  }
 }
 
+.presentacion-contenido {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+  padding: 2.5rem;
+  text-align: center;
+  margin-top: -60px;
+}
 
-.presentacion-texto h1 {
+.presentacion-texto {
+  h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    color: #1f2933
-}
+    color: #1f2933;
+  }
 
-.presentacion-texto h2 {
+  h2 {
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 0.6rem;
     color: #4b5563;
-}
+  }
 
-.presentacion-texto p {
+  p {
     max-width: 500px;
     line-height: 1.6;
     color: #6b7280;
+  }
 }
-
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    margin: 0;
-}
-
-
-main {
-    padding-top: 90px;
-}
-
-
-section {
-    scroll-margin-top: 90px;
-}
-
-section:target {
-    scroll-margin-top: 90px;
-}
-
 
 .presentacion-acciones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.75rem;
 }
-
 
 .badge-disponible {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.8rem;
-    border-radius: 999px;
-    background-color: #e0f2fe;
-    color: #0369a1;
-    font-weight: 500;
-    margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
 }
-
 
 .presentacion-links {
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
 
-
-
-.presentacion-links a {
+  a {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -115,22 +86,22 @@ section:target {
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 500;
-    
+
     transition: 
-        background-color 0.2s ease,
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
 
-}
+    &:hover {
+      background-color: #eef2f7;
+      border-color: #9ca3af;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
 
-.presentacion-links a:hover {
-    background-color: #eef2f7;
-    border-color: #9ca3af;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-}
-
-.presentacion-links svg {
-    width: 16px;
-    height: 16px;
-    fill: currentColor;
+    svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+  }
 }
