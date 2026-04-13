@@ -1,0 +1,67 @@
+.educacion-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 2rem;
+}
+
+
+.educacion-timeline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e5e7eb;
+}
+
+
+.educacion-item {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.educacion-punto {
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    width: 10px;
+    height: 10px;
+    background-color: #2563eb;
+    border-radius: 50%;
+}
+
+
+.educacion-contenido h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+.educacion-lugar {
+    color: #4b5563;
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+}
+
+.educacion-fecha {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+.educacion-grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+}
+
+
+.educacion-descripcion p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #4b5563;
+}

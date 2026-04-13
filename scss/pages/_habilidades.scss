@@ -1,0 +1,24 @@
+#habilidades {
+    padding: 4rem 0;
+    background-color: #ffffff;
+}
+
+#habilidades img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    }
+
+#habilidades p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+
+.habilidades-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}

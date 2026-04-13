@@ -1,0 +1,35 @@
+#sobremi {
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+}
+
+.sobremi-contenido {
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.sobremi-texto {
+    flex: 1;
+}
+
+.sobremi-texto p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.sobremi-imagen {
+    flex-shrink: 0;
+}
+
+.sobremi-imagen img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
